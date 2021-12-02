@@ -1,0 +1,40 @@
+package com.hynning.team.domain;
+
+/**
+ * @author Hynning
+ * @date 2021/12/1 - 11:42 上午
+ */
+public class Priter implements Equipment{
+
+    private String name;
+    private String type;
+
+    public Priter() {
+    }
+
+    public Priter(String name, String type) {
+        this.name = name;
+        this.type = type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    @Override
+    public String getDescription(){
+        return name +"("+ type + ")";
+    }
+}
