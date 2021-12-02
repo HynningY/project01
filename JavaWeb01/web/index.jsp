@@ -11,6 +11,9 @@
     <title>Hynning官网</title>
   </head>
   <body>
-    <h1 style = "color: red"> 12341234567</h1>
+    <h1 style = "color: red"> javaWeb网页</h1>
+    <div>
+      <img src="index.jsp">
+    </div>
   </body>
 </html>

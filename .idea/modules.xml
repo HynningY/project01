@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomManage/CustomManage.iml" filepath="$PROJECT_DIR$/CustomManage/CustomManage.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb01/JavaWeb01.iml" filepath="$PROJECT_DIR$/JavaWeb01/JavaWeb01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module01/Module01.iml" filepath="$PROJECT_DIR$/Module01/Module01.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticWeb01/StaticWeb01.iml" filepath="$PROJECT_DIR$/StaticWeb01/StaticWeb01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvndemo/mvndemo.iml" filepath="$PROJECT_DIR$/mvndemo/mvndemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro3/pro3.iml" filepath="$PROJECT_DIR$/pro3/pro3.iml" />
       <module fileurl="file://$PROJECT_DIR$/project01.iml" filepath="$PROJECT_DIR$/project01.iml" />
     </modules>
   </component>
