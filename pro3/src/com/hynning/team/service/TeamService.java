@@ -18,6 +18,9 @@ public class TeamService {
     }
 
     public Programer[] getTeam() {
+        for (int i = 0; i < team.length; i++){
+            team[i] = this.team[i];
+        }
         return team;
     }
     public void addMember(Employee e){
