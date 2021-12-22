@@ -90,14 +90,31 @@ public class TeamService {
 //            if(team[i].getId()==e.getId()){
 //                return true;
 //            }
-            return team[i].getId()==e.getId();
+//            return team[i].getId()==e.getId();
         }
         return false;
     }
 
-    public void removeMember(int memberId){
+    public void removeMember(int memberId) throws TeamException {
+        int i = 0;
+        for (; i < total; i++) {
+            if (team[i].getMemberId() == memberId) {
+                team[i].setStatus(Status.FREE);
+                break;
+            }
 
+        }
 
+        if(i == total){
+            throw new TeamException("找不到指定Member_id员工");
+        }
+
+        for (int j = i + 1; j < total; j++) {
+            team[j - 1] = team[j];
+        }
+
+        team[total - 1] = null;
+//        team[--total] = null;
 
     }
 }

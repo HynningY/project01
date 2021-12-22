@@ -23,9 +23,10 @@ public class TemServiceTest {
         Programer[] s = ts.getTeam();
 
         for (int i = 0; i < s.length; i++){
-
-            System.out.println(s[i]);
-
+            if(s[i] != null) {
+                System.out.println(s[i]);
+                System.out.println(s[i].getMemberId());
+            }
         }
 
     }
