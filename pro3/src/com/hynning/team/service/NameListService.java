@@ -18,6 +18,7 @@ public class NameListService {
 
         for (int i = 0; i < employees.length; i++){
             int key = Integer.parseInt(EMPLOYEES[i][0]);
+//            System.out.println(key+"-"+EMPLOYEE);
 
             int id = Integer.parseInt(EMPLOYEES[i][1]);
             String  name = EMPLOYEES[i][2];
@@ -79,7 +80,6 @@ public class NameListService {
 
 
     public Employee[] getAllEmployees() {
-
         return employees;
     }
 

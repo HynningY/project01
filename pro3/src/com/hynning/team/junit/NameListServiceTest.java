@@ -31,4 +31,9 @@ public class NameListServiceTest {
             System.out.println(e.getMessage());
         }
     }
+
+    @Test
+    public void testNameListService(){
+        new NameListService();
+    }
 }

@@ -12,6 +12,7 @@
     <bytecodeTargetLevel>
       <module name="mavendemo" target="1.5" />
       <module name="mvndemo" target="1.8" />
+      <module name="MyUdf" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
