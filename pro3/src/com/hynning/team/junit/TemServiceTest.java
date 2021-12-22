@@ -23,6 +23,7 @@ public class TemServiceTest {
         Programer[] s = ts.getTeam();
 
         for (int i = 0; i < s.length; i++){
+
             System.out.println(s[i]);
 
         }
