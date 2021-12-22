@@ -23,7 +23,7 @@ public class NameListServiceTest {
     @Test
     public void testGetEmployee(){
         NameListService service = new NameListService();
-        int id = 101;
+        int id = 1;
         try{
             Employee employee = service.getEmployees(id);
             System.out.println(employee);
